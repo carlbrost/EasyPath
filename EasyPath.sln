@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		EasyPath\EasyPath\EasyPath.projitems*{0f89ada9-1d84-40bf-9fba-75f924d8a52d}*SharedItemsImports = 4
 		EasyPath\EasyPath\EasyPath.projitems*{2665e71b-91b5-43dc-b0a4-aed727ee62e9}*SharedItemsImports = 4
+		EasyPath\EasyPath\EasyPath.projitems*{51e521fe-8e8d-41ce-b22f-0a2e1718f837}*SharedItemsImports = 4
 		EasyPath\EasyPath\EasyPath.projitems*{aa5cd121-3694-4984-8106-c3c8e9945205}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

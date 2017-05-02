@@ -2,10 +2,72 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:EasyPath"
-             x:Class="EasyPath.MainPage">
+             x:Class="EasyPath.MainPage"
+             BackgroundColor="Black"
+             Title="Easy Path Character Builder"
+             >
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <Label Text="Class"
+           TextColor="White" />
+            <Label Text="Welcome to the Easy Path character builder!"
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+           TextColor="White"/>
+
+            <Label Text="Strength!"
+ 
+           TextColor="White"/>
+            <Slider>
+            </Slider>
+
+            <Label Text="Dexterity!"
+  
+           TextColor="White"/>
+            <Slider>
+            </Slider>
+
+
+            <Label Text="Constitution!"
+   
+           TextColor="White"/>
+            <Slider>
+            </Slider>
+            <Label Text="Wisdom!"
+            
+           TextColor="White"/>
+
+            <Slider>
+            </Slider>
+            <Label Text="Intelligence!"
+
+           TextColor="White"/>
+            <Slider>
+            </Slider>
+
+            <Label Text="Race!"
+
+      TextColor="White"/>
+
+            
+            <Picker Title="Race"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black">
+                <Picker.Items>
+                <x:String>Human</x:String>
+                <x:String>Dwarf</x:String>
+                <x:String>Goblin</x:String>
+                <x:String>Elf</x:String>
+                <x:String>Gnome</x:String>
+                <x:String>Tiefling</x:String>
+                <x:String>Cyclops</x:String>
+                <x:String>Kobold</x:String>
+                <x:String>Catfolk</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            
+            
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
