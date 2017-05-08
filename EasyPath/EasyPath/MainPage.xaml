@@ -10,40 +10,120 @@
         <StackLayout>
             <Label Text="Class"
            TextColor="White" />
-            <Label Text="Welcome to the Easy Path character builder!"
+            <Label Text="Welcome to the Underfoot Sample Character Builder!"
 
            TextColor="White"/>
 
             <Label Text="Strength!"
  
            TextColor="White"/>
-            <Slider>
-            </Slider>
+            <Button x:Name = "StrDOWN"  
+            Content="-" 
+            Click = "STRDWN"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
+
+
+            <Button x:Name = "StrUP"  
+            Content = "+" 
+            Click = "STRUP"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
+
 
             <Label Text="Dexterity!"
   
            TextColor="White"/>
-            <Slider>
-            </Slider>
+            <Button x:Name = "dexDOWN"  
+            Content="-" 
+            Click = "dexDWN"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
 
 
+            <Button x:Name = "dexUP"  
+            Content = "+" 
+            Click = "DEXUP"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
             <Label Text="Constitution!"
    
            TextColor="White"/>
-            <Slider>
-            </Slider>
+            <Button x:Name = "conDOWN"  
+            Content="-" 
+            Click = "CONDWN"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
+
+
+            <Button x:Name = "conUP"  
+            Content = "+" 
+            Click = "conUP"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
             <Label Text="Wisdom!"
             
            TextColor="White"/>
+            <Button x:Name = "wisDOWN"  
+            Content="-" 
+            Click = "WISDWN"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
 
-            <Slider>
-            </Slider>
+
+            <Button x:Name = "wisUP"  
+            Content = "+" 
+            Click = "WISUP"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
             <Label Text="Intelligence!"
 
            TextColor="White"/>
-            <Slider>
-            </Slider>
+            <Button x:Name = "intDOWN"  
+            Content="-" 
+            Click = "INTDWN"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
 
+
+            <Button x:Name = "intUP"  
+            Content = "+" 
+            Click = "INTUP"  
+            ClickMode = "Press" 
+            Margin = "10"  
+            Width = "150"  
+            HorizontalAlignment = "Center"  
+            Foreground = "DarkBlue"/>
+            
+            
+            
             <Label Text="Race!"
 
       TextColor="White"/>
@@ -53,15 +133,13 @@
                 BackgroundColor="AntiqueWhite"
                     TextColor="Black">
                 <Picker.Items>
-                <x:String>Human</x:String>
-                <x:String>Dwarf</x:String>
-                <x:String>Goblin</x:String>
-                <x:String>Elf</x:String>
-                <x:String>Gnome</x:String>
-                <x:String>Tiefling</x:String>
-                <x:String>Cyclops</x:String>
+                <x:String>Undead</x:String>
+                <x:String>Imp</x:String>
+                <x:String>Bot</x:String>
+                <x:String>Abberant</x:String>
+                <x:String>Fae</x:String>
                 <x:String>Kobold</x:String>
-                <x:String>Catfolk</x:String>
+                <x:String>Ogre</x:String>
                 </Picker.Items>
             </Picker>
             
