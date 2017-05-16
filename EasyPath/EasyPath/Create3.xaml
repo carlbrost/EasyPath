@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyPath.Create3"
+             BackgroundColor="BlanchedAlmond"
+             
+             >
+
+
+
+    <StackLayout>
+        <TableView>
+
+            <TableSection
+               x:Name="stats"
+               Title="Allocate your stats!"
+                >
+            <TextCell
+                Text="Strength!"
+                x:Name="txtStr"
+                ClassId="txtStr"
+           TextColor="Black"/>
+            <EntryCell
+                Text="Enter points here. 8 max"
+                
+                />
+                <TextCell
+                x:Name="txtCon"
+                ClassId="txtCon"
+                Text="Constitutopm!"
+           TextColor="Black"/>
+                <EntryCell
+                Text="Enter points here. 8 max"
+              
+                />
+                <TextCell
+                Text="Dexterity!"
+                x:Name="txtDex"
+                ClassId="txtDex"
+           TextColor="Black"/>
+                <EntryCell
+                Text="Enter points here. 8 max"
+                
+                />
+                <TextCell
+                Text="Charisma!"
+                x:Name="txtChar"
+                ClassId="txtChar"
+           TextColor="Black"/>
+                <EntryCell
+                Text="Enter points here. 8 max"
+                
+                />
+                <TextCell
+                Text="Wisdom!"
+                x:Name="txtWis"
+                ClassId="txtWis"
+           TextColor="Black"/>
+                <EntryCell
+                Text="Enter points here. 8 max"
+                
+                />
+                <TextCell
+                      
+                Text="Intelligence!"
+                    x:Name="txtInt"
+                    ClassId="txtInt"
+           TextColor="Black"/>
+                <EntryCell
+                Text="Enter points here. 8 max"
+                
+                />
+            </TableSection>
+        </TableView>
+
+
+    </StackLayout>
+</ContentPage>

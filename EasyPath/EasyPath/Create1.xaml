@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+BackgroundColor="BlanchedAlmond"
+             x:Class="EasyPath.Create1">
+
+    <StackLayout>
+        <Label Text="Stage One Species Selection"
+               TextColor="Black"
+               />
+        
+        <Picker Title="Race"
+                x:Name="selRace"
+                ClassId="selRace"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                >
+            <Picker.Items>
+                <x:String>Undead</x:String>
+                <x:String>Imp</x:String>
+                <x:String>Bot</x:String>
+                <x:String>Abberant</x:String>
+                <x:String>Fae</x:String>
+                <x:String>Kobold</x:String>
+                <x:String>Ogre</x:String>
+            </Picker.Items>
+        </Picker>
+
+
+        <Picker Title="Undead"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                IsVisible="False"
+                 x:Name="selUndead"
+            ClassId="selUndead">
+
+            <Picker.Items>
+                <x:String>Mummy</x:String>
+                <x:String>Dullahan</x:String>
+                <x:String>Ghost</x:String>
+                <x:String>Vampling</x:String>
+ 
+            </Picker.Items>
+        </Picker>
+
+        <Picker Title="Imp"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                 x:Name="selImp"
+                IsVisible="False"
+                ClassId="selImp"
+                >
+            <Picker.Items>
+                <x:String>Djinn</x:String>
+                <x:String>Madrid</x:String>
+                <x:String>Shaitan</x:String>
+                <x:String>Ifrit</x:String>
+
+            </Picker.Items>
+        </Picker>
+        <Picker Title="Bot"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                x:Name="selBot"
+                ClassId="selBot"
+                IsVisible="False">
+            <Picker.Items>
+                <x:String>Elixquick</x:String>
+                <x:String>Chesty</x:String>
+                <x:String>NuPaige</x:String>
+                <x:String>Vampling</x:String>
+
+            </Picker.Items>
+        </Picker>
+        <Picker Title="Abberant"
+                x:Name="selAbberant"
+                ClassId="selAbberant"
+                
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                IsVisible="False">
+            <Picker.Items>
+                <x:String>Squidlet</x:String>
+                <x:String>Puddling</x:String>
+                <x:String>Pupper</x:String>
+                <x:String>Frylet</x:String>
+            </Picker.Items>
+
+        </Picker>
+
+        <Picker Title="Fae"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                     x:Name="selFae"
+                ClassId="selFae"
+                
+                IsVisible="False">
+                <Picker.Items>
+                    <x:String>Pixie</x:String>
+                    <x:String>Brownie</x:String>
+                    <x:String>Leshy</x:String>
+                    <x:String>Nixie</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker Title="Kobold"
+                    x:Name="selKobold"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                IsVisible="False">
+                <Picker.Items>
+                    <x:String>Wyrm</x:String>
+                    <x:String>Newt</x:String>
+                    <x:String>Drake</x:String>
+                    <x:String>Hatchlet</x:String>
+                </Picker.Items>
+            </Picker>
+
+        <Picker Title="Ogre"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                 x:Name="selOgre"
+                ClassId="selOgre"
+                IsVisible="False">
+            <Picker.Items>
+                <x:String>Cyclops</x:String>
+                <x:String>Ettin</x:String>
+                <x:String>Oni</x:String>
+                <x:String>Troll</x:String>
+            </Picker.Items>
+        </Picker>
+    </StackLayout>
+</ContentPage>

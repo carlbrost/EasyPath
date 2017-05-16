@@ -4,9 +4,7 @@ using System.Text;
 
 namespace EasyPath
 {
-   public class CharacterBasics
-    {
-        public class Stats
+    public class Stats
         {
             public int Str { get; set; }
             public int Dex { get; set; }
@@ -16,25 +14,35 @@ namespace EasyPath
             public int Cha { get; set; }
         }
 
-        public class Saves
+    public class Skills
+    {
+        public string off { get; set; }
+        public string def { get; set; }
+        public string edu { get; set; }
+        public string spec { get; set; }
+    }
+
+    public class Racial
+    {
+        public string Race { get; set; }
+
+        public string Subrace { get; set; }
+
+    }
+
+    public class Identity
+    {
+        public string name = "";
+
+        public Stats stats = new Stats();
+
+        public Skills skills = new Skills();
+
+        public Racial race = new Racial();
+
+        public Identity()
         {
-            public int Fort { get; set; }
-            public int Reflex { get; set; }
-            public int Will { get; set; }
-
         }
-
-        public class Armor
-        {
-            public int ShieldBonus { get; set; }
-            public int NaturalArmorBonus { get; set; }
-            public int DexArmorBonus { get; set; }
-            public int DodgeBonus { get; set; }
-        }
-
-
-
-
 
     }
 }

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyPath.Create2"
+             BackgroundColor="BlanchedAlmond">
+    <StackLayout>
+        <TableView x:Name="SkillView" 
+                   Intent="Form">
+
+            <TableSection
+            x:Name="offSkill"
+                Title="Offensive Skills" >
+                <ViewCell>
+
+                    <Picker Title="Choose..."
+                x:Name="selOffSkills"
+                            ClassId="selOffSkills"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                >
+                        <Picker.Items>
+                            <x:String>Punchy!</x:String>
+                            <x:String>Stabby-Slicey</x:String>
+                            <x:String>Bang-bang</x:String>
+                            <x:String>Smash-Bash</x:String>
+                            <x:String>Wishy-Swishy</x:String>
+                            <x:String>Ding-Doot</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                </ViewCell>
+            </TableSection>
+
+
+
+            <TableSection
+            x:Name="defSkill"
+                Title="Deffensive Skills" >
+                <ViewCell>
+
+                    <Picker Title="Choose..."
+                x:Name="selDefSkills"
+                            ClassId="selDefSkills"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                >
+                        <Picker.Items>
+                            <x:String>Twitchy!</x:String>
+                            <x:String>Hardy</x:String>
+                            <x:String>Silly</x:String>
+                            <x:String>Angry</x:String>
+                            <x:String>Filthy</x:String>
+                            <x:String>Chubby</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                </ViewCell>
+            </TableSection>
+
+
+            <TableSection
+            x:Name="EduSkill"
+                Title="Education Skills" >
+                <ViewCell>
+
+                    <Picker Title="Choose..."
+                x:Name="eduSkills"
+                            ClassId="eduSkills"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                >
+                        <Picker.Items>
+                            <x:String>Healer!</x:String>
+                            <x:String>Tinkerer</x:String>
+                            <x:String>Forager</x:String>
+                            <x:String>Forager</x:String>
+                            <x:String>Stealer</x:String>
+                            <x:String>Scriber</x:String>
+                            <x:String>Jester</x:String>
+
+                        </Picker.Items>
+                    </Picker>
+
+                </ViewCell>
+            </TableSection>
+
+            <TableSection
+            x:Name="specSkill"
+                 
+                Title="Spectrum Magic" >
+                <ViewCell>
+
+                    <Picker Title="Choose..."
+                x:Name="selSpecSkills"
+                            ClassId="selSpecSkills"
+                BackgroundColor="AntiqueWhite"
+                    TextColor="Black"
+                >
+                        <Picker.Items>
+                            <x:String>Greyscale</x:String>
+                            <x:String>WarmTones</x:String>
+                            <x:String>Earth Tones</x:String>
+                            <x:String>Cool Tones</x:String>
+                            <x:String>UltraViolet</x:String>
+                            <x:String>Infrared</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                </ViewCell>
+            </TableSection>
+        </TableView>
+    </StackLayout>
+</ContentPage>

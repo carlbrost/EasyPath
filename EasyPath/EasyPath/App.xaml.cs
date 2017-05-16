@@ -9,12 +9,15 @@ namespace EasyPath
 {
 	public partial class App : Application
 	{
-		public App ()
+
+        public static Identity curCharacter;
+
+        public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new EasyPath.MainPage();
-		}
+			MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{
